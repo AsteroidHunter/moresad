@@ -1,11 +1,11 @@
 # moresad
 Pilot extensions of the Situational Awareness Dataset (SAD; Laine et al. 2024)
 
-## Test No.1: how does performance on SAD change if the situating prompt states the LLM is a human?
+### 1. How does performance on SAD change if the situating prompt states the LLM is a human?
 
 ![](./plots/sadmicro_scores_prompttype_20250421.png)
 ![](./plots/sadmicro_scores_prompttype2_20250421.png)
-### Quick takeways
+#### Quick takeways
 - **Adding an "identity-biasing" prompt doesn't meaningfully degrade the model's performance on a very small but diverse subset of self-knowledge questions.**
     - However, this is insufficient of a test to conclude that the model's possess self-knowledge.
     - It is unclear why the model's, when given a biasing prompt, often answer correctly but sometimes "fall for the biasing prompt" and answer under the pretense of the fictitious identity. 
