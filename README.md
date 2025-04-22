@@ -1,5 +1,5 @@
 # moresad
-Pilot extensions of the Situational Awareness Dataset (SAD; Laine et al. 2024)
+Pilot extensions to the Situational Awareness Dataset (SAD; Laine et al. 2024)
 
 ### 1. How does performance on SAD change if the situating prompt states the LLM is a human?
 
