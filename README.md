@@ -1,8 +1,8 @@
 # moresad
-Pilot extensions to the Situational Awareness Dataset (SAD; Laine et al. 2024)
+Pilot extensions to the Situational Awareness Dataset (SAD; [Laine et al. 2024](https://arxiv.org/abs/2407.04694))
 
 ### 1. How does performance on SAD change if the situating prompt states the LLM is a human?
-
+Here, the model was tested on 38 questions from the self-knowledge portion of SAD. Four different prompts were used: a standard prompt which instructed that the model was an LLM, the same but with a warning not to impersonate anyone, a biasing prompt that assigned a fictitious identity to the model, and the same but with a warning to avoid impersonations. 
 ![](./plots/sadmicro_scores_prompttype_20250421.png)
 ![](./plots/sadmicro_scores_prompttype2_20250421.png)
 #### Quick takeways
